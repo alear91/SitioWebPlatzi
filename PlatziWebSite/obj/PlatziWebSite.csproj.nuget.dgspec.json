@@ -1,29 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alejandro Arguello\\Desktop\\web apps\\PlatziWebSite\\PlatziWebSite.csproj": {}
+    "C:\\Users\\Alejandro Arguello\\Desktop\\Webpps\\PlatziwebSite\\PlatziWebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alejandro Arguello\\Desktop\\web apps\\PlatziWebSite\\PlatziWebSite.csproj": {
+    "C:\\Users\\Alejandro Arguello\\Desktop\\Webpps\\PlatziwebSite\\PlatziWebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alejandro Arguello\\Desktop\\web apps\\PlatziWebSite\\PlatziWebSite.csproj",
+        "projectUniqueName": "C:\\Users\\Alejandro Arguello\\Desktop\\Webpps\\PlatziwebSite\\PlatziWebSite.csproj",
         "projectName": "PlatziWebSite",
-        "projectPath": "C:\\Users\\Alejandro Arguello\\Desktop\\web apps\\PlatziWebSite\\PlatziWebSite.csproj",
+        "projectPath": "C:\\Users\\Alejandro Arguello\\Desktop\\Webpps\\PlatziwebSite\\PlatziWebSite.csproj",
         "packagesPath": "C:\\Users\\Alejandro Arguello\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alejandro Arguello\\Desktop\\web apps\\PlatziWebSite\\obj\\",
+        "outputPath": "C:\\Users\\Alejandro Arguello\\Desktop\\Webpps\\PlatziwebSite\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alejandro Arguello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alejandro Arguello\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -34,7 +43,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -53,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.417\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
