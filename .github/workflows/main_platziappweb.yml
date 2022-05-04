@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'PlatziAppWeb'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0C10EF7A64AD48478788B05409C6F298 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7168A92AC9F5419D9F27356875DCD930 }}
           package: .
